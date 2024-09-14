@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                "baseUrl": "./",
+    "paths":{
+      "@config":["./src/config"],
+      "@utils":["./src/utils"],
+      "@controllers":["./src/controllers"],
+      "@middlewares":["./src/middlewares"],
+      "@models":["./src/models"],
+      "@routes":["./src/routes"],
+      "@interfaces":["./src/interfaces"],
+      "@errors":["./src/errors"]
+      
+    },
+    "module": "commonjs",             
+    "esModuleInterop": true,                   
+    "forceConsistentCasingInFileNames": true,     
+    "strict": true,                   
+    "skipLibCheck": true                                
+  }
+}
